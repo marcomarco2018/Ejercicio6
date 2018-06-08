@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.141" fx:controller="com.ejercicio6.controller.LoginController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Line endX="500.0" layoutX="101.0" layoutY="42.0" startX="-100.0" />
+      <Text layoutX="14.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hola amigos Login" wrappingWidth="113.28271484375" />
+      <TextField fx:id="txtLogin" layoutX="318.0" layoutY="166.0" />
+      <Text layoutX="138.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User" wrappingWidth="113.28271484375" />
+      <Text layoutX="138.0" layoutY="227.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pass" wrappingWidth="113.28271484375" />
+      <PasswordField fx:id="txtPassword" layoutX="318.0" layoutY="218.0" />
+      <Button layoutX="273.0" layoutY="296.0" mnemonicParsing="false" onAction="#login" text="Log" />
+    </children>
+</AnchorPane>
